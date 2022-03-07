@@ -1,17 +1,1 @@
-<script>
-	export let popular;
-	export const url = 'https://image.tmdb.org/t/p/w500';
-</script>
-
-<!-- <pre>{JSON.stringify(popular, null, 2)}</pre> -->
-
-<div class="container mt-6 mx-auto grid gap-4 grid-cols-4 grid-rows-3 ">
-	{#each popular as movie}
-		<figure>
-			<img src={`${url}${movie.poster_path}`} alt="" />
-			<figcaption class="whitespace-nowrap overflow-hidden text-ellipsis">
-				{movie.original_title}
-			</figcaption>
-		</figure>
-	{/each}
-</div>
+<div class="mt-12 text-center">SvelteKit shadow endpoint</div>
