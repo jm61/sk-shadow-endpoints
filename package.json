@@ -2,7 +2,7 @@
   "name": "template",
   "version": "0.0.1",
   "scripts": {
-    "dev": "env-cmd svelte-kit dev",
+    "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
@@ -14,7 +14,6 @@
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.4.2",
-    "env-cmd": "^10.1.0",
     "postcss": "^8.4.7",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
